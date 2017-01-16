@@ -1,0 +1,20 @@
+#ProfilePicture {
+	height: 200px;
+	width: 200px;
+}
+h1 {
+	display: inline-block;
+}
+.SocialLogo {
+	height: 50px;
+	width: 50px;
+}
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.nav-content {
+	display: inline;
+}
