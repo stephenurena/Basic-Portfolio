@@ -62,7 +62,7 @@ div#headerBar {
 }
 
 section#main-section {
-	max-width: 650px;
+	width: 650px;
 	margin: 0 auto;
 	background: #fff;
 	margin-right: 15px;
@@ -70,6 +70,15 @@ section#main-section {
 }
 .gallery {
 	margin:auto;
+}
+#contactForm {
+	margin: auto;
+	padding: 20px;
+}
+input:not(:last-child), textarea {
+	width: 90%;
+	padding:10px;
+	margin: 10px 10px 10px 0px;
 }
 .connect {
 	margin-left: 30px;
@@ -91,12 +100,13 @@ h2{
 	margin: 25px 25px 0px 25px;
 	border-bottom: 2px solid #ddd;
 	padding: 0px 0px 20px 0px;
-	color: #4aaaa5
+	color: #4aaaa5;
+	max-width: 100%;
 }
 
 /* SideBar elements */
 section#sideBar {
-	max-width: 270px;
+	width: 270px;
 	text-align: center;
 	margin: 0 auto;
 	background: #fff;
